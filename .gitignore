@@ -1,0 +1,21 @@
+# Dependency directories
+/node_modules
+
+# Production build
+/build
+
+# Environment variables
+.env
+
+# IDE files
+.idea
+.vscode
+
+# Compiled files
+*.log
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
