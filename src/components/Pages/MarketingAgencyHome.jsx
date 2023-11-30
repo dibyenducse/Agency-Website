@@ -111,46 +111,13 @@ export default function MarketingAgencyHome() {
 
             {/* Start Pricing Section */}
             <Spacing lg="145" md="80" />
-            <Div className="container">
-                <SectionHeading
-                    title="Providing best <br/>pricing for client"
-                    subtitle="Pricing & Packaging"
-                />
-                <Spacing lg="85" md="40" />
-                <PricingTableList />
-            </Div>
+
             <Spacing lg="125" md="55" />
             {/* End Pricing Section */}
 
             {/* Start Testimonial Section */}
             <TestimonialSlider />
             {/* End Testimonial Section */}
-
-            {/* Start Blog Section */}
-            <Spacing lg="150" md="80" />
-            <Div className="cs-shape_wrap_4">
-                <Div className="cs-shape_4"></Div>
-                <Div className="cs-shape_4"></Div>
-                <Div className="container">
-                    <Div className="row">
-                        <Div className="col-xl-4">
-                            <SectionHeading
-                                title="Explore recent publication"
-                                subtitle="Our Blog"
-                                btnText="View More Blog"
-                                btnLink="/blog"
-                            />
-                            <Spacing lg="90" md="45" />
-                        </Div>
-                        <Div className="col-xl-7 offset-xl-1">
-                            <Div className="cs-half_of_full_width">
-                                <PostSlider />
-                            </Div>
-                        </Div>
-                    </Div>
-                </Div>
-            </Div>
-            {/* End Blog Section */}
 
             {/* Start MovingText Section */}
             <Spacing lg="125" md="70" />
@@ -169,7 +136,7 @@ export default function MarketingAgencyHome() {
             <Div className="container">
                 <Cta
                     title="Let’s disscuse make <br />something <i>cool</i> together"
-                    btnText="Apply For Meeting"
+                    btnText="Get In Touch"
                     btnLink="/contact"
                     bgSrc="/images/cta_bg_3.jpeg"
                 />

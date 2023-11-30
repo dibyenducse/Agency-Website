@@ -34,9 +34,11 @@ export default function ContactInfoWidget({ withIcon, title }) {
                     ) : (
                         ''
                     )}
-                    1607 W Schunior st,78541
+                    1607 W Schunior Street,
                     <br />
-                    Edinburgh, Texas, USA
+                    Edinburgh, Texas, 78541,
+                    <br />
+                    USA.
                 </li>
             </ul>
         </>
