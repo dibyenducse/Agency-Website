@@ -20,6 +20,7 @@ import CaseStudyShowcaseHome from './components/Pages/CaseStudyShowcaseHome';
 import Layout from './components/Layout';
 import CaseStudyDetailsPage from './components/Pages/CaseStudyDetailsPage';
 import FaqPage from './components/Pages/FaqPage';
+import ContentService from './components/Pages/ContentService';
 
 function App() {
     return (
@@ -44,6 +45,10 @@ function App() {
                     <Route
                         path="service/:serviceDetailsId"
                         element={<ServiceDetailsPage />}
+                    />
+                    <Route
+                        path="service/Content-Service"
+                        element={<ContentService />}
                     />
                     <Route path="portfolio" element={<PortfolioPage />} />
                     <Route

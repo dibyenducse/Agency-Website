@@ -24,7 +24,7 @@ export default function ServiceList() {
             subtitle:
                 "Craft compelling and captivating content to tell your brand's story across various platforms.",
             imgUrl: '/images/service_9.jpeg',
-            href: '/service/service-details',
+            href: '/service/content-Service',
         },
         {
             title: 'Social Ad Campaigns',
