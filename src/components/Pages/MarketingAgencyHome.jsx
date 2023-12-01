@@ -40,8 +40,8 @@ export default function MarketingAgencyHome() {
             factNumber: '200',
         },
         {
-            title: 'Viral Contents',
-            factNumber: '180',
+            title: ' Content Created',
+            factNumber: '10k',
         },
         {
             title: 'Team members',
@@ -52,7 +52,7 @@ export default function MarketingAgencyHome() {
         <>
             {/* Start Hero Section */}
             <Hero5
-                title="Bloom Your Business<br /> With Social Strategy"
+                title="Bloom Your Presence,<br /> Grow Your Audience!"
                 subtitle="Let your brand bloom with our meticulous Social Media Management, Growth, and Content Creation services."
                 btnLink="contact"
                 btnText="Let’s talk"

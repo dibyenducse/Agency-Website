@@ -61,7 +61,7 @@ export default function Header({ variant }) {
 
                                         <li className="menu-item-has-children">
                                             <NavLink
-                                                to="service"
+                                                to=""
                                                 onClick={() =>
                                                     setMobileToggle(false)
                                                 }
@@ -72,20 +72,7 @@ export default function Header({ variant }) {
                                                 <ul>
                                                     <li>
                                                         <Link
-                                                            to="portfolio"
-                                                            onClick={() =>
-                                                                setMobileToggle(
-                                                                    false
-                                                                )
-                                                            }
-                                                        >
-                                                            Social Media Content
-                                                            Creation
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link
-                                                            to="portfolio/portfolio-details"
+                                                            to="service/management-service"
                                                             onClick={() =>
                                                                 setMobileToggle(
                                                                     false
@@ -98,7 +85,20 @@ export default function Header({ variant }) {
                                                     </li>
                                                     <li>
                                                         <Link
-                                                            to="portfolio/portfolio-details"
+                                                            to="service/content-service"
+                                                            onClick={() =>
+                                                                setMobileToggle(
+                                                                    false
+                                                                )
+                                                            }
+                                                        >
+                                                            Social Media Content
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                        <Link
+                                                            to="service/growth-service"
                                                             onClick={() =>
                                                                 setMobileToggle(
                                                                     false
@@ -110,7 +110,7 @@ export default function Header({ variant }) {
                                                     </li>
                                                     <li>
                                                         <Link
-                                                            to="portfolio/portfolio-details"
+                                                            to="service/ads-service"
                                                             onClick={() =>
                                                                 setMobileToggle(
                                                                     false

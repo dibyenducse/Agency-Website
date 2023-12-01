@@ -10,28 +10,28 @@ export default function ServiceList() {
             subtitle:
                 'Elevate your brand online with our Social Media Management. We handle the details, you enjoy the results. ',
             imgUrl: '/images/service_7.jpeg',
-            href: '/service/service-details',
+            href: '/service/management-service',
         },
         {
             title: 'Social Media Growth',
             subtitle:
                 'Tailored strategies designed to elevate your online presence, expand your reach, and cultivate a thriving digital audience.',
             imgUrl: '/images/service_8.jpeg',
-            href: '/service/service-details',
+            href: '/service/growth-service',
         },
         {
             title: 'Social Media Content Creation ',
             subtitle:
                 "Craft compelling and captivating content to tell your brand's story across various platforms.",
             imgUrl: '/images/service_9.jpeg',
-            href: '/service/content-Service',
+            href: '/service/content-service',
         },
         {
             title: 'Social Ad Campaigns',
             subtitle:
                 'Execute strategic and impactful digital campaigns to enhance brand visibility and success.',
             imgUrl: '/images/service_10.jpeg',
-            href: '/service/service-details',
+            href: '/service/ads-service',
         },
     ];
     const [active, setActive] = useState(0);

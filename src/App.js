@@ -21,6 +21,9 @@ import Layout from './components/Layout';
 import CaseStudyDetailsPage from './components/Pages/CaseStudyDetailsPage';
 import FaqPage from './components/Pages/FaqPage';
 import ContentService from './components/Pages/ContentService';
+import GrowthService from './components/Pages/GrowthService';
+import AdsService from './components/Pages/AdsService';
+import ManagementService from './components/Pages/ManagementService';
 
 function App() {
     return (
@@ -49,6 +52,18 @@ function App() {
                     <Route
                         path="service/Content-Service"
                         element={<ContentService />}
+                    />
+                    <Route
+                        path="service/Growth-Service"
+                        element={<GrowthService />}
+                    />
+                    <Route
+                        path="service/Ads-Service"
+                        element={<AdsService />}
+                    />
+                    <Route
+                        path="service/Management-Service"
+                        element={<ManagementService />}
                     />
                     <Route path="portfolio" element={<PortfolioPage />} />
                     <Route

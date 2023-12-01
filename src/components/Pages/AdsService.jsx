@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { pageTitle } from '../../helper';
-import Accordion from '../AccordionContent';
+import Accordion from '../AccordionAd';
 import Button from '../Button';
 import Cta from '../Cta';
 import IconBox from '../IconBox';
-import PageHeading from '../PageHeading';
+//import PageHeading from '../PageHeading';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
-import TestimonialSlider from '../Slider/TestimonialSlider';
+//import TestimonialSlider from '../Slider/TestimonialSlider';
 import Spacing from '../Spacing';
 
-export default function ContentService() {
+export default function AdsService() {
     pageTitle('Service Details');
     const params = useParams();
     useEffect(() => {
@@ -27,7 +27,7 @@ export default function ContentService() {
             <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
-                    title="Creative Content Creating"
+                    title="Social Ad Campaigns"
                     subtitle="Graphics-Videos-Animation"
                     variant="cs-style1 text-center"
                 />
@@ -36,24 +36,24 @@ export default function ContentService() {
                     <Div className="col-lg-4">
                         <IconBox
                             icon="/images/icons/service_icon_1.svg"
-                            title="Visual Brilliance"
-                            subtitle=" We craft captivating visual narratives to bring your brand to life, ensuring your story stands out."
+                            title="Campaign Strategies"
+                            subtitle="Tailor-made ad campaigns designed to reach specific demographics, ensuring your message resonates with the right audience."
                         />
                         <Spacing lg="30" md="30" />
                     </Div>
                     <Div className="col-lg-4">
                         <IconBox
                             icon="/images/icons/service_icon_2.svg"
-                            title="Tailored Impact"
-                            subtitle="Each piece is uniquely tailored to your brand, delivering content that resonates and makes a lasting impression."
+                            title="Data-Driven Approach"
+                            subtitle="Utilize analytics and insights to craft informed ad strategies, maximizing ROI and optimizing campaign performance."
                         />
                         <Spacing lg="30" md="30" />
                     </Div>
                     <Div className="col-lg-4">
                         <IconBox
                             icon="/images/icons/service_icon_3.svg"
-                            title="Platform Mastery"
-                            subtitle="Our creative content seamlessly adapts to various platforms, maximizing engagement and impact."
+                            title="Multi-Platform"
+                            subtitle="Experience across various social media platforms, ensuring your ad campaigns are strategically placed for maximum impact."
                         />
                         <Spacing lg="30" md="30" />
                     </Div>
@@ -74,82 +74,70 @@ export default function ContentService() {
                     </Div>
                     <Div className="col-lg-6 offset-xl-1">
                         <h2 className="cs-font_50 cs-m0">
-                            Below our most creative content services
+                            Below our Social Ad Campaign services
                         </h2>
                         <Spacing lg="50" md="30" />
                         <Div className="row">
                             <Div className="col-lg-6">
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Strategic Visual Storytelling"
+                                    btnLink=""
+                                    btnText="Strategic Ad Campaign Planning"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Trend-Responsive Creativity"
+                                    btnLink=""
+                                    btnText="Audience Targeting Expertise"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Videos, Reels or Shorts"
+                                    btnLink=""
+                                    btnText="Compelling Ad Copy and Visuals"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Podcasts Editing"
+                                    btnLink=""
+                                    btnText="Multi-Platform Campaigns"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Interactive Content"
+                                    btnLink=""
+                                    btnText="Ad Performance Analytics"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Story Highlights"
+                                    btnLink=""
+                                    btnText="Budget Optimization Strategies"
+                                    variant="cs-type2"
+                                />
+                                <Spacing lg="20" md="10" />
+                                <Button
+                                    btnLink=""
+                                    btnText="A/B Testing for Optimization"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="0" md="10" />
                             </Div>
                             <Div className="col-lg-6">
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Infographic design"
+                                    btnLink=""
+                                    btnText="Conversion Tracking and Analysis"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Interactive Polls and Surveys"
+                                    btnLink=""
+                                    btnText="Adaptive to Industry Trends"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Product Demonstrations"
-                                    variant="cs-type2"
-                                />
-                                <Spacing lg="20" md="10" />
-                                <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Promotional Posts"
-                                    variant="cs-type2"
-                                />
-                                <Spacing lg="20" md="10" />
-                                <Button
-                                    btnLink="/service/service-details"
-                                    btnText="Behind-the-Scenes"
-                                    variant="cs-type2"
-                                />
-                                <Spacing lg="20" md="10" />
-                                <Button
-                                    btnLink="/service/service-details"
-                                    btnText="User-Generated Content"
+                                    btnLink=""
+                                    btnText="Strategic Ad Placements"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
