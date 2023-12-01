@@ -6,6 +6,10 @@ import ContactPage from './components/Pages/ContactPage';
 import ErrorPage from './components/Pages/ErrorPage';
 import Home from './components/Pages/Home';
 import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
+import PortfolioDetailsPageGrowth from './components/Pages/PortfolioDetailsPageGrowth';
+import PortfolioDetailsPageGraphic from './components/Pages/PortfolioDetailsPageGraphic';
+import PortfolioDetailsPageVideo from './components/Pages/PortfolioDetailsPageVideo';
+import PortfolioDetailsPageAd from './components/Pages/PortfolioDetailsPageAd';
 import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
 import ServicesPage from './components/Pages/ServicesPage';
 import TeamPage from './components/Pages/TeamPage';
@@ -69,6 +73,22 @@ function App() {
                     <Route
                         path="portfolio/:portfolioDetailsId"
                         element={<PortfolioDetailsPage />}
+                    />
+                    <Route
+                        path="portfolio/growth-portfolio"
+                        element={<PortfolioDetailsPageGrowth />}
+                    />
+                    <Route
+                        path="portfolio/graphic-portfolio"
+                        element={<PortfolioDetailsPageGraphic />}
+                    />
+                    <Route
+                        path="portfolio/video-portfolio"
+                        element={<PortfolioDetailsPageVideo />}
+                    />
+                    <Route
+                        path="portfolio/ad-portfolio"
+                        element={<PortfolioDetailsPageAd />}
                     />
                     <Route path="blog" element={<BlogPage />} />
                     <Route

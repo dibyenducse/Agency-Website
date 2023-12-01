@@ -7,10 +7,10 @@ import MovingText from '../MovingText';
 import Spacing from '../Spacing';
 import VideoModal from '../VideoModal';
 import { pageTitle } from '../../helper';
-import PostSlider from '../Slider/PostSlider';
+//import PostSlider from '../Slider/PostSlider';
 import SectionHeading from '../SectionHeading';
 import TestimonialSlider from '../Slider/TestimonialSlider';
-import PricingTableList from '../PricingTable/PricingTableList';
+//import PricingTableList from '../PricingTable/PricingTableList';
 import FunFact2 from '../FunFact/FunFact2';
 import PortfolioSlider2 from '../Slider/PortfolioSlider2';
 import ServiceList from '../ServiceList';
@@ -121,7 +121,7 @@ export default function MarketingAgencyHome() {
 
             {/* Start MovingText Section */}
             <Spacing lg="125" md="70" />
-            <MovingText text="Our reputed world wide partners" />
+            <MovingText text="Our reputed world wide Clients" />
             <Spacing lg="100" md="70" />
             {/* End MovingText Section */}
 
@@ -135,7 +135,7 @@ export default function MarketingAgencyHome() {
             {/* Start CTA Section */}
             <Div className="container">
                 <Cta
-                    title="Let’s disscuse make <br />something <i>cool</i> together"
+                    title="Let’s disscuse,<br />make something <i>cool</i>  together"
                     btnText="Get In Touch"
                     btnLink="/contact"
                     bgSrc="/images/cta_bg_3.jpeg"

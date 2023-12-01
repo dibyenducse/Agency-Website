@@ -91,7 +91,7 @@ export default function PortfolioPage() {
             category: 'web_design',
         },
         {
-            title: 'Content Design',
+            title: 'Graphic Content',
             category: 'ui_ux_design',
         },
         {

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { pageTitle } from '../../helper';
 import Button from '../Button';
 import Cta from '../Cta';
-import PageHeading from '../PageHeading';
+//import PageHeading from '../PageHeading';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
@@ -16,11 +16,11 @@ export default function PortfolioDetailsPage() {
     }, []);
     return (
         <>
-            <PageHeading
+            {/* <PageHeading
                 title="Portfolio Details"
                 bgSrc="/images/service_hero_bg.jpeg"
                 pageLinkText={params.portfolioDetailsId}
-            />
+            /> */}
             <Spacing lg="150" md="80" />
             <Div className="container">
                 <img
