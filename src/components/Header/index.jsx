@@ -130,7 +130,17 @@ export default function Header({ variant }) {
                                                     setMobileToggle(false)
                                                 }
                                             >
-                                                Portfolio
+                                                Content Is King
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink
+                                                to="case-study/:caseStudyDetailsId"
+                                                onClick={() =>
+                                                    setMobileToggle(false)
+                                                }
+                                            >
+                                                Case Study
                                             </NavLink>
                                         </li>
                                         <li>
@@ -143,6 +153,7 @@ export default function Header({ variant }) {
                                                 About
                                             </NavLink>
                                         </li>
+
                                         <li>
                                             <NavLink
                                                 to="contact"

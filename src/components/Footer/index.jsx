@@ -83,7 +83,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <Div className="cs-bottom_footer">
                     <Div className="cs-bottom_footer_left">
                         <Div className="cs-copyright">
-                            Copyright © 2023 Bloombrain Media Ltd.
+                            Copyright © 2023 Bloombrain Media.
                         </Div>
                     </Div>
                     <Div className="cs-bottom_footer_right">

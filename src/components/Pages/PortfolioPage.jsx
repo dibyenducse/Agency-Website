@@ -87,19 +87,19 @@ export default function PortfolioPage() {
     ];
     const categoryMenu = [
         {
-            title: 'Organic Growth',
+            title: 'Shorts & Reels',
             category: 'web_design',
         },
         {
-            title: 'Graphic Content',
+            title: 'Trends Background ',
             category: 'ui_ux_design',
         },
         {
-            title: 'Video Content',
+            title: 'Talk To Head',
             category: 'mobile_apps',
         },
         {
-            title: 'Ads Campaign',
+            title: 'Captions & Subtitle',
             category: 'logo_design',
         },
     ];
@@ -121,7 +121,7 @@ export default function PortfolioPage() {
                 <Div className="cs-portfolio_1_heading">
                     <SectionHeading
                         title="Some recent work"
-                        subtitle="Our Portfolio"
+                        subtitle="Our Content Portfolio"
                     />
                     <Div className="cs-filter_menu cs-style1">
                         <ul className="cs-mp0 cs-center">

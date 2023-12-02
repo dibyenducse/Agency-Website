@@ -14,6 +14,8 @@ import TestimonialSlider from '../Slider/TestimonialSlider';
 import FunFact2 from '../FunFact/FunFact2';
 import PortfolioSlider2 from '../Slider/PortfolioSlider2';
 import ServiceList from '../ServiceList';
+import TeamSlider from '../Slider/TeamSlider';
+import TimelineSlider from '../Slider/TimelineSlider';
 
 export default function MarketingAgencyHome() {
     pageTitle('BloomBrain');
@@ -131,6 +133,45 @@ export default function MarketingAgencyHome() {
             </Div>
             <Spacing lg="130" md="80" />
             {/* End LogoList Section */}
+
+            {/* Start Team Section */}
+            <Spacing lg="145" md="80" />
+            <Div className="container">
+                <SectionHeading
+                    title="Awesome team <br/>members"
+                    subtitle="Our Team"
+                    variant="cs-style1"
+                />
+                <Spacing lg="85" md="45" />
+                <TeamSlider />
+            </Div>
+            <Spacing lg="150" md="80" />
+            {/* End Team Section */}
+
+            {/* Start Awards Section */}
+            <Spacing lg="150" md="80" />
+            <Div className="cs-shape_wrap_2">
+                <Div className="cs-shape_2">
+                    <Div />
+                </Div>
+                <Div className="container">
+                    <Div className="row">
+                        <Div className="col-xl-4">
+                            <SectionHeading
+                                title="Global Presence, Local Impact"
+                                subtitle="Discover Our Strategic Offices Across the Globe."
+                                variant="cs-style1"
+                            />
+                            <Spacing lg="90" md="45" />
+                        </Div>
+                        <Div className="col-xl-7 offset-xl-1">
+                            <TimelineSlider />
+                        </Div>
+                    </Div>
+                </Div>
+            </Div>
+            <Spacing lg="150" md="80" />
+            {/* End Awards Section */}
 
             {/* Start CTA Section */}
             <Div className="container">
