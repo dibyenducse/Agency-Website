@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { pageTitle } from '../../helper';
 import Cta from '../Cta';
-import PageHeading from '../PageHeading';
+//import PageHeading from '../PageHeading';
 import Portfolio from '../Portfolio';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
@@ -15,10 +15,10 @@ export default function PortfolioPage() {
     const [itemShow, setItemShow] = useState(7);
     const portfolioData = [
         {
-            title: 'Colorful Art Work',
+            title: '@thetonymont',
             subtitle: 'See Details',
-            href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_4.jpeg',
+            href: 'https://photos.app.goo.gl/ufsJa9mTsuVe95mX8',
+            src: '/images/1203.png',
             category: 'ui_ux_design',
         },
         {
@@ -29,11 +29,11 @@ export default function PortfolioPage() {
             category: 'logo_design',
         },
         {
-            title: 'Colorful Art Work',
+            title: '@towneandcountree',
             subtitle: 'See Details',
-            href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_6.jpeg',
-            category: 'web_design',
+            href: 'https://photos.app.goo.gl/eAne7diKJDG9hB6eA',
+            src: '/images/1205.png',
+            category: 'shorts',
         },
         {
             title: 'Colorful Art Work',
@@ -43,18 +43,18 @@ export default function PortfolioPage() {
             category: 'mobile_apps',
         },
         {
-            title: 'Colorful Art Work',
+            title: '@josheprayan',
             subtitle: 'See Details',
-            href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_8.jpeg',
+            href: 'https://photos.app.goo.gl/SCrUM6dtcFS6FpPg8',
+            src: '/images/1204.png',
             category: 'ui_ux_design',
         },
         {
-            title: 'Colorful Art Work',
+            title: '@foodlovers',
             subtitle: 'See Details',
-            href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_9.jpeg',
-            category: 'web_design',
+            href: 'https://photos.app.goo.gl/mzNioESRW5eqVByE8',
+            src: '/images/1206.png',
+            category: 'shorts',
         },
         {
             title: 'Colorful Art Work',
@@ -82,21 +82,21 @@ export default function PortfolioPage() {
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
             src: '/images/portfolio_6.jpeg',
-            category: 'web_design',
+            category: 'shorts',
         },
     ];
     const categoryMenu = [
         {
-            title: 'Shorts & Reels',
-            category: 'web_design',
+            title: 'Shorts or Reels',
+            category: 'shorts',
         },
         {
-            title: 'Trends Background ',
-            category: 'ui_ux_design',
-        },
-        {
-            title: 'Talk To Head',
+            title: 'Trending Content ',
             category: 'mobile_apps',
+        },
+        {
+            title: 'Talking Head Videos',
+            category: 'ui_ux_design',
         },
         {
             title: 'Captions & Subtitle',

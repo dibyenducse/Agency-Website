@@ -46,8 +46,8 @@ export default function MarketingAgencyHome() {
             factNumber: '10k',
         },
         {
-            title: 'Team members',
-            factNumber: '15',
+            title: 'Paid Ads Spend',
+            factNumber: '1M',
         },
     ];
     return (
@@ -111,11 +111,30 @@ export default function MarketingAgencyHome() {
             </Div>
             {/* End FunFact Section */}
 
-            {/* Start Pricing Section */}
-            <Spacing lg="145" md="80" />
-
-            <Spacing lg="125" md="55" />
-            {/* End Pricing Section */}
+            {/* Start Awards Section */}
+            <Spacing lg="150" md="80" />
+            <Div className="cs-shape_wrap_2">
+                <Div className="cs-shape_2">
+                    <Div />
+                </Div>
+                <Div className="container">
+                    <Div className="row">
+                        <Div className="col-xl-4">
+                            <SectionHeading
+                                title="PAID ADVERTISING"
+                                subtitle=" Total Revenue Generated"
+                                variant="cs-style1"
+                            />
+                            <Spacing lg="90" md="45" />
+                        </Div>
+                        <Div className="col-xl-7 offset-xl-1">
+                            <TimelineSlider />
+                        </Div>
+                    </Div>
+                </Div>
+            </Div>
+            <Spacing lg="150" md="80" />
+            {/* End Awards Section */}
 
             {/* Start Testimonial Section */}
             <TestimonialSlider />
@@ -147,31 +166,6 @@ export default function MarketingAgencyHome() {
             </Div>
             <Spacing lg="150" md="80" />
             {/* End Team Section */}
-
-            {/* Start Awards Section */}
-            <Spacing lg="150" md="80" />
-            <Div className="cs-shape_wrap_2">
-                <Div className="cs-shape_2">
-                    <Div />
-                </Div>
-                <Div className="container">
-                    <Div className="row">
-                        <Div className="col-xl-4">
-                            <SectionHeading
-                                title="Global Presence, Local Impact"
-                                subtitle="Discover Our Strategic Offices Across the Globe."
-                                variant="cs-style1"
-                            />
-                            <Spacing lg="90" md="45" />
-                        </Div>
-                        <Div className="col-xl-7 offset-xl-1">
-                            <TimelineSlider />
-                        </Div>
-                    </Div>
-                </Div>
-            </Div>
-            <Spacing lg="150" md="80" />
-            {/* End Awards Section */}
 
             {/* Start CTA Section */}
             <Div className="container">

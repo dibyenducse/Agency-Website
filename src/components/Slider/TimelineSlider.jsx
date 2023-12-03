@@ -8,44 +8,30 @@ export default function TimelineSlider() {
     const timelineData = [
         [
             {
-                year: 'USA',
-                name: '1607 W Schunior Street',
-                position: 'Edinburgh, Texas, 78541',
-                type: 'USA',
+                year: 'Client Helped',
+                name: '38+',
+                position: '',
+                type: '',
             },
             {
-                year: 'CANADA',
-                name: '789 Maple Lane,',
-                position: 'Saskatoon, SK S7K 3R9',
-                type: 'Canada',
-            },
-        ],
-        [
-            {
-                year: 'AUSTRALIA',
-                name: '456 Green Avenue',
-                position: 'Hawthorn, Melbourne, VIC 3122,',
-                type: 'Australia',
-            },
-            {
-                year: 'Bangladesh',
-                name: '104, Lake Road',
-                position: 'Dhanmondi, Dhaka-1207',
-                type: 'Bangladesh',
+                year: 'Total Ad Spend',
+                name: '1M+',
+                position: '',
+                type: '',
             },
         ],
         [
             {
-                year: 'Singapore',
-                name: 'Google awards',
-                position: 'Website of the day',
-                type: 'Mobile exelence',
+                year: 'Campaign Launched',
+                name: '201+',
+                position: '',
+                type: '',
             },
             {
-                year: 'Germany',
-                name: 'CSS awards design',
-                position: 'Honorable mention',
-                type: 'Desktop exelence',
+                year: 'ROI',
+                name: '100%',
+                position: '',
+                type: '',
             },
         ],
     ];
