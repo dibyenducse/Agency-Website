@@ -27,8 +27,8 @@ export default function ContentService() {
             <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
-                    title="Creative Content Creating"
-                    subtitle="Graphics-Videos-Animation"
+                    title="Creative Content Creation"
+                    subtitle="Graphics-Videos-Animations"
                     variant="cs-style1 text-center"
                 />
                 <Spacing lg="90" md="45" />
