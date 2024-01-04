@@ -6,31 +6,31 @@ import './servicelist.scss';
 export default function ServiceList() {
     const serviceData = [
         {
-            title: 'Social Media Management',
+            title: 'Social Media Video Editing',
             subtitle:
-                'Elevate your brand online with our Social Media Management. We handle the details, you enjoy the results. ',
-            imgUrl: '/images/service_7.jpeg',
+                'Transform your content with our Social Media Video Editing services. We craft the visuals, you bask in the engagement.',
+            imgUrl: '/images/5.png',
             href: '/service/management-service',
         },
         {
             title: 'Social Media Growth',
             subtitle:
                 'Tailored strategies designed to elevate your online presence, expand your reach, and cultivate a thriving digital audience.',
-            imgUrl: '/images/service_8.jpeg',
+            imgUrl: '/images/4.png',
             href: '/service/growth-service',
         },
         {
             title: 'Social Media Content Creation ',
             subtitle:
                 "Craft compelling and captivating content to tell your brand's story across various platforms.",
-            imgUrl: '/images/service_9.jpeg',
+            imgUrl: '/images/1.png',
             href: '/service/content-service',
         },
         {
             title: 'Social Ad Campaigns',
             subtitle:
                 'Execute strategic and impactful digital campaigns to enhance brand visibility and success.',
-            imgUrl: '/images/service_10.jpeg',
+            imgUrl: '/images/3.png',
             href: '/service/ads-service',
         },
     ];

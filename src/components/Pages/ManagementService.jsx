@@ -28,8 +28,8 @@ export default function ManagementService() {
             <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
-                    title="Social Media Management"
-                    subtitle="Engagement-Optimization-Analytics"
+                    title="Social Media Video Editing"
+                    subtitle="Tiktok-Instagram-Youtube"
                     variant="cs-style1 text-center"
                 />
                 <Spacing lg="90" md="45" />
@@ -37,24 +37,26 @@ export default function ManagementService() {
                     <Div className="col-lg-4">
                         <IconBox
                             icon="/images/icons/service_icon_1.svg"
-                            title="Strategic Engagement"
-                            subtitle=" Elevate your brand's online presence with our expert Social Media Management. We curate strategic content and engage your audience for maximum impact."
+                            title="Creative Storytelling"
+                            subtitle=" Transform your brand's online identity through our skilled Social Media Video Editing. We craft compelling narratives, ensuring your message resonates and captivates your audience for a lasting impact.
+
+"
                         />
                         <Spacing lg="30" md="30" />
                     </Div>
                     <Div className="col-lg-4">
                         <IconBox
                             icon="/images/icons/service_icon_2.svg"
-                            title="Content Curation"
-                            subtitle="Let us handle the details. Our Social Media Management service includes meticulous content curation to ensure a cohesive and compelling digital narrative."
+                            title="Seamless Editing"
+                            subtitle="Leave the intricacies to us. Our Social Media Video Editing service guarantees flawless editing, creating a seamless and visually stunning experience. From transitions to effects, we've got every detail covered."
                         />
                         <Spacing lg="30" md="30" />
                     </Div>
                     <Div className="col-lg-4">
                         <IconBox
                             icon="/images/icons/service_icon_3.svg"
-                            title="Insight Optimization"
-                            subtitle="We analyze, refine, and optimize your social media strategy for optimal performance, ensuring your brand thrives in the dynamic digital landscape."
+                            title="Performance"
+                            subtitle="We go beyond the surface. Our team analyzes, refines, and enhances your social media video strategy for optimal engagement, ensuring your brand stands out in the ever-evolving digital landscape."
                         />
                         <Spacing lg="30" md="30" />
                     </Div>
@@ -66,7 +68,7 @@ export default function ManagementService() {
                     <Div className="col-xl-5 col-lg-6">
                         <Div className="cs-radius_15 cs-shine_hover_1">
                             <img
-                                src="/images/service_img_1.jpeg"
+                                src="/images/5.png"
                                 alt="Service"
                                 className="cs-radius_15 w-100"
                             />
@@ -75,44 +77,44 @@ export default function ManagementService() {
                     </Div>
                     <Div className="col-lg-6 offset-xl-1">
                         <h2 className="cs-font_50 cs-m0">
-                            Below our social media management services
+                            Below our social media video editing services
                         </h2>
                         <Spacing lg="50" md="30" />
                         <Div className="row">
                             <Div className="col-lg-6">
                                 <Button
                                     btnLink=""
-                                    btnText="Content Calendar"
+                                    btnText="Talking Head Video"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Audience Engagement"
+                                    btnText="Subtitles and Captions"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Platform Optimization"
+                                    btnText="Visual To Script"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Strategic Posting"
+                                    btnText="Youtube Long Video"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Hashtag Strategy"
+                                    btnText="Trending Background"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Campaign Management"
+                                    btnText="Royality Free Music"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="0" md="10" />
@@ -120,37 +122,37 @@ export default function ManagementService() {
                             <Div className="col-lg-6">
                                 <Button
                                     btnLink=""
-                                    btnText="Analytics Reports"
+                                    btnText="Animation & Transition"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Content Creation"
+                                    btnText="Motion Graphics"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Community Building"
+                                    btnText="Product Overview"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Adaptation and Innovation"
+                                    btnText="UGC Videos"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Influencer Collaboration"
+                                    btnText="AI Script To Visual"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />
                                 <Button
                                     btnLink=""
-                                    btnText="Crisis Management"
+                                    btnText="Animation Shorts"
                                     variant="cs-type2"
                                 />
                                 <Spacing lg="20" md="10" />

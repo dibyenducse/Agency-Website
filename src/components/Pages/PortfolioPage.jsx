@@ -17,8 +17,8 @@ export default function PortfolioPage() {
         {
             title: '@thetonymont',
             subtitle: 'See Details',
-            href: 'https://photos.app.goo.gl/ufsJa9mTsuVe95mX8',
-            src: '/images/1203.png',
+            href: 'https://www.youtube.com/watch?v=VcaAVWtP48A',
+            src: 'https://www.youtube.com/watch?v=VcaAVWtP48A',
             category: 'ui_ux_design',
         },
         {

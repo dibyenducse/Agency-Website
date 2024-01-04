@@ -65,7 +65,7 @@ export default function AdsService() {
                     <Div className="col-xl-5 col-lg-6">
                         <Div className="cs-radius_15 cs-shine_hover_1">
                             <img
-                                src="/images/service_img_1.jpeg"
+                                src="/images/2.png"
                                 alt="Service"
                                 className="cs-radius_15 w-100"
                             />

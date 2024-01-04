@@ -9,7 +9,7 @@ export default function TestimonialSlider() {
     const [nav2, setNav2] = useState();
     const testimonialData = [
         {
-            testimonialThumb: '/images/testimonial_1.jpeg',
+            testimonialThumb: '/images/testimonial_1.png',
             testimonialText:
                 'Bloombrain Media exceeded our expectations! Their organic growth strategies transformed our social media presence. Their professionalism in video content creation and adept management of our social accounts showcased their commitment to excellence.',
             avatarName: 'Willny Guifarro',
@@ -17,7 +17,7 @@ export default function TestimonialSlider() {
             ratings: '5',
         },
         {
-            testimonialThumb: '/images/testimonial_2.jpeg',
+            testimonialThumb: '/images/testimonial_2.png',
             testimonialText:
                 'Choosing Bloombrain Media was the best decision for my business. Their organic growth tactics brought significant results. The video and reels content they produced was not only engaging but also aligned perfectly with our brand. True professionals!',
             avatarName: 'Sarah Smith',
@@ -25,7 +25,7 @@ export default function TestimonialSlider() {
             ratings: '5',
         },
         {
-            testimonialThumb: '/images/testimonial_3.jpeg',
+            testimonialThumb: '/images/testimonial_3.png',
             testimonialText:
                 "Bloombrain Media is a game-changer! Their expertise in managing our social accounts streamlined our online presence. The organic growth strategies gave our brand a genuine boost. The video content was spot on – capturing our audience's attention effortlessly.",
             avatarName: 'Alex Rodriguez',
@@ -33,7 +33,7 @@ export default function TestimonialSlider() {
             ratings: '5',
         },
         {
-            testimonialThumb: '/images/testimonial_1.jpeg',
+            testimonialThumb: '/images/testimonial_4.png',
             testimonialText:
                 "Professionalism at its best! Bloombrain Media's approach to organic growth is strategic and effective. Their video content transformed our brand story, making it visually appealing. Social account management has been seamless, allowing us to focus on our business.",
             avatarName: 'Emily Turner',

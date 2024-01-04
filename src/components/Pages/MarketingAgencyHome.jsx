@@ -12,9 +12,9 @@ import SectionHeading from '../SectionHeading';
 import TestimonialSlider from '../Slider/TestimonialSlider';
 //import PricingTableList from '../PricingTable/PricingTableList';
 import FunFact2 from '../FunFact/FunFact2';
-import PortfolioSlider2 from '../Slider/PortfolioSlider2';
+//import PortfolioSlider2 from '../Slider/PortfolioSlider2';
 import ServiceList from '../ServiceList';
-import TeamSlider from '../Slider/TeamSlider';
+//import TeamSlider from '../Slider/TeamSlider';
 import TimelineSlider from '../Slider/TimelineSlider';
 
 export default function MarketingAgencyHome() {
@@ -67,7 +67,7 @@ export default function MarketingAgencyHome() {
             <Div className="cs-video_block_1_wrap">
                 <Div className="container">
                     <VideoModal
-                        videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
+                        videoSrc="https://www.youtube.com/"
                         bgUrl="/images/video_bg_2.jpeg"
                     />
                 </Div>
@@ -88,7 +88,7 @@ export default function MarketingAgencyHome() {
             {/* End Services Section */}
 
             {/* Start PortfolioSlider Section */}
-            <Spacing lg="120" md="50" />
+            {/* <Spacing lg="120" md="50" />
             <Div className="container">
                 <h2 className="cs-font_50 cs-m0 cs-line_height_4">
                     Seamless Social Media Management, Engaging Content Creation,
@@ -97,7 +97,7 @@ export default function MarketingAgencyHome() {
                 </h2>
             </Div>
             <Spacing lg="90" md="70" />
-            <PortfolioSlider2 />
+            <PortfolioSlider2 /> */}
             {/* End PortfolioSlider Section */}
 
             {/* Start FunFact Section */}
@@ -154,7 +154,7 @@ export default function MarketingAgencyHome() {
             {/* End LogoList Section */}
 
             {/* Start Team Section */}
-            <Spacing lg="145" md="80" />
+            {/* <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
                     title="Awesome team <br/>members"
@@ -164,7 +164,7 @@ export default function MarketingAgencyHome() {
                 <Spacing lg="85" md="45" />
                 <TeamSlider />
             </Div>
-            <Spacing lg="150" md="80" />
+            <Spacing lg="150" md="80" /> */}
             {/* End Team Section */}
 
             {/* Start CTA Section */}

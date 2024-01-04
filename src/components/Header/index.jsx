@@ -79,8 +79,8 @@ export default function Header({ variant }) {
                                                                 )
                                                             }
                                                         >
-                                                            Social Media
-                                                            Management
+                                                            Social Media Video
+                                                            Editing
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -93,6 +93,7 @@ export default function Header({ variant }) {
                                                             }
                                                         >
                                                             Social Media Content
+                                                            Creation
                                                         </Link>
                                                     </li>
 
@@ -123,7 +124,7 @@ export default function Header({ variant }) {
                                                 </ul>
                                             </DropDown>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <NavLink
                                                 to="portfolio"
                                                 onClick={() =>
@@ -132,8 +133,8 @@ export default function Header({ variant }) {
                                             >
                                                 Content Is King
                                             </NavLink>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                        {/* <li>
                                             <NavLink
                                                 to="case-study/:caseStudyDetailsId"
                                                 onClick={() =>
@@ -142,7 +143,7 @@ export default function Header({ variant }) {
                                             >
                                                 Case Study
                                             </NavLink>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <NavLink
                                                 to="about"

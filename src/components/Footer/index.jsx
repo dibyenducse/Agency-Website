@@ -22,20 +22,20 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
     const serviceMenu = [
         {
             title: 'Social Media Content Creation',
-            href: '/service/service-details',
+            href: '/service/content-service',
         },
 
         {
             title: 'Social Media Management',
-            href: '/service/service-details',
+            href: '/service/management-service',
         },
         {
             title: 'Social Media Growth',
-            href: '/service/service-details',
+            href: '/service/growth-service',
         },
         {
             title: 'Social Ad Campaigns',
-            href: '/service/service-details',
+            href: '/service/ads-service',
         },
     ];
 
@@ -83,7 +83,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <Div className="cs-bottom_footer">
                     <Div className="cs-bottom_footer_left">
                         <Div className="cs-copyright">
-                            Copyright © 2023 Bloombrain Media.
+                            Copyright © 2023 Bloombrain Media LLC.
                         </Div>
                     </Div>
                     <Div className="cs-bottom_footer_right">

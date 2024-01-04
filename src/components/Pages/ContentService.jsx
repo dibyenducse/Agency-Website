@@ -27,8 +27,8 @@ export default function ContentService() {
             <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
-                    title="Creative Content Creation"
-                    subtitle="Graphics-Videos-Animations"
+                    title="Creative Content Creating"
+                    subtitle="Graphics-Videos-Animation"
                     variant="cs-style1 text-center"
                 />
                 <Spacing lg="90" md="45" />
@@ -65,7 +65,7 @@ export default function ContentService() {
                     <Div className="col-xl-5 col-lg-6">
                         <Div className="cs-radius_15 cs-shine_hover_1">
                             <img
-                                src="/images/service_img_1.jpeg"
+                                src="/images/1.png"
                                 alt="Service"
                                 className="cs-radius_15 w-100"
                             />
