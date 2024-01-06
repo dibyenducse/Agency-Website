@@ -72,19 +72,6 @@ export default function Header({ variant }) {
                                                 <ul>
                                                     <li>
                                                         <Link
-                                                            to="service/management-service"
-                                                            onClick={() =>
-                                                                setMobileToggle(
-                                                                    false
-                                                                )
-                                                            }
-                                                        >
-                                                            Social Media Video
-                                                            Editing
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link
                                                             to="service/content-service"
                                                             onClick={() =>
                                                                 setMobileToggle(
@@ -94,6 +81,20 @@ export default function Header({ variant }) {
                                                         >
                                                             Social Media Content
                                                             Creation
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                        <Link
+                                                            to="service/video-editing"
+                                                            onClick={() =>
+                                                                setMobileToggle(
+                                                                    false
+                                                                )
+                                                            }
+                                                        >
+                                                            Social Media Video
+                                                            Editing
                                                         </Link>
                                                     </li>
 

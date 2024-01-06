@@ -21,14 +21,14 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 
     const serviceMenu = [
         {
+            title: 'Social Media Video Editing',
+            href: '/service/video-editing',
+        },
+        {
             title: 'Social Media Content Creation',
             href: '/service/content-service',
         },
 
-        {
-            title: 'Social Media Management',
-            href: '/service/management-service',
-        },
         {
             title: 'Social Media Growth',
             href: '/service/growth-service',

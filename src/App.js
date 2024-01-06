@@ -66,7 +66,7 @@ function App() {
                         element={<AdsService />}
                     />
                     <Route
-                        path="service/Management-Service"
+                        path="service/Video-Editing"
                         element={<ManagementService />}
                     />
                     <Route path="portfolio" element={<PortfolioPage />} />
