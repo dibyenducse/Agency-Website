@@ -12,7 +12,7 @@ import SectionHeading from '../SectionHeading';
 import TestimonialSlider from '../Slider/TestimonialSlider';
 //import PricingTableList from '../PricingTable/PricingTableList';
 import FunFact2 from '../FunFact/FunFact2';
-//import PortfolioSlider2 from '../Slider/PortfolioSlider2';
+import PortfolioSlider2 from '../Slider/PortfolioSlider2';
 import ServiceList from '../ServiceList';
 //import TeamSlider from '../Slider/TeamSlider';
 import TimelineSlider from '../Slider/TimelineSlider';
@@ -88,7 +88,7 @@ export default function MarketingAgencyHome() {
             {/* End Services Section */}
 
             {/* Start PortfolioSlider Section */}
-            {/* <Spacing lg="120" md="50" />
+            <Spacing lg="120" md="50" />
             <Div className="container">
                 <h2 className="cs-font_50 cs-m0 cs-line_height_4">
                     Seamless Social Media Management, Engaging Content Creation,
@@ -97,7 +97,7 @@ export default function MarketingAgencyHome() {
                 </h2>
             </Div>
             <Spacing lg="90" md="70" />
-            <PortfolioSlider2 /> */}
+            <PortfolioSlider2 />
             {/* End PortfolioSlider Section */}
 
             {/* Start FunFact Section */}

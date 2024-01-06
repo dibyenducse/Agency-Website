@@ -50,7 +50,7 @@ export default function Header({ variant }) {
                                     >
                                         <li>
                                             <NavLink
-                                                to="/"
+                                                to=""
                                                 onClick={() =>
                                                     setMobileToggle(false)
                                                 }
@@ -61,7 +61,7 @@ export default function Header({ variant }) {
 
                                         <li className="menu-item-has-children">
                                             <NavLink
-                                                to=""
+                                                to="service/content-service"
                                                 onClick={() =>
                                                     setMobileToggle(false)
                                                 }
@@ -79,26 +79,13 @@ export default function Header({ variant }) {
                                                                 )
                                                             }
                                                         >
-                                                            Social Media Content
-                                                            Creation
+                                                            Creative Content
+                                                            Creating
                                                         </Link>
                                                     </li>
 
                                                     <li>
-                                                        <Link
-                                                            to="service/video-editing"
-                                                            onClick={() =>
-                                                                setMobileToggle(
-                                                                    false
-                                                                )
-                                                            }
-                                                        >
-                                                            Social Media Video
-                                                            Editing
-                                                        </Link>
-                                                    </li>
-
-                                                    <li>
+                                                        {' '}
                                                         <Link
                                                             to="service/growth-service"
                                                             onClick={() =>
@@ -107,7 +94,22 @@ export default function Header({ variant }) {
                                                                 )
                                                             }
                                                         >
-                                                            Social Media Growth
+                                                            Growth & Management
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                        {' '}
+                                                        <Link
+                                                            to="service/video-editing"
+                                                            onClick={() =>
+                                                                setMobileToggle(
+                                                                    false
+                                                                )
+                                                            }
+                                                        >
+                                                            Creative Video
+                                                            Editing
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -119,7 +121,7 @@ export default function Header({ variant }) {
                                                                 )
                                                             }
                                                         >
-                                                            Social Ad Campaigns
+                                                            Paid Ad Campaign
                                                         </Link>
                                                     </li>
                                                 </ul>
