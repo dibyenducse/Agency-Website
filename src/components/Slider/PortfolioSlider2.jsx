@@ -10,8 +10,8 @@ export default function PortfolioSlider2() {
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
-            href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_31.jpeg',
+            href: 'https://www.youtube.com/shorts/wDPYHEXzQWg',
+            src: 'https://www.youtube.com/shorts/wDPYHEXzQWg',
         },
         {
             title: 'Colorful Art Work',
@@ -123,7 +123,7 @@ export default function PortfolioSlider2() {
             {portfolioData.map((item, index) => (
                 <Div key={index}>
                     <VideoModal
-                        videoSrc="https://www.youtube.com/shorts/wDPYHEXzQWg"
+                        videoSrc={item.src}
                         bgUrl="/images/video_bg_2.jpeg"
                     />
                 </Div>

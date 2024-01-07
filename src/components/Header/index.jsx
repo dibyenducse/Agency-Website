@@ -85,7 +85,6 @@ export default function Header({ variant }) {
                                                     </li>
 
                                                     <li>
-                                                        {' '}
                                                         <Link
                                                             to="service/growth-service"
                                                             onClick={() =>
@@ -99,7 +98,6 @@ export default function Header({ variant }) {
                                                     </li>
 
                                                     <li>
-                                                        {' '}
                                                         <Link
                                                             to="service/video-editing"
                                                             onClick={() =>
