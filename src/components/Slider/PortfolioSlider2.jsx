@@ -119,12 +119,17 @@ export default function PortfolioSlider2() {
     };
 
     return (
-        <Slider {...settings} className="cs-gap-12 cs-arrow_style4">
+        <Slider
+            {...settings}
+            className="cs-slider cs-style1 cs-gap-12 cs-arrow_style4"
+        >
             {portfolioData.map((item, index) => (
                 <Div key={index}>
-                    <VideoModal
-                        videoSrc={item.src}
-                        bgUrl="/images/video_bg_2.jpeg"
+                    <Portfolio
+                        title={item.title}
+                        subtitle={item.subtitle}
+                        href={item.href}
+                        src={item.src}
                     />
                 </Div>
             ))}
