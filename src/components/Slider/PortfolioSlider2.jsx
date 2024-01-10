@@ -130,6 +130,7 @@ export default function PortfolioSlider2() {
                         subtitle={item.subtitle}
                         href={item.href}
                         src={item.src}
+                        variant="cs-style1 cs-type2 cs-size3"
                     />
                 </Div>
             ))}
