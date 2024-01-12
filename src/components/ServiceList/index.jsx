@@ -13,7 +13,7 @@ export default function ServiceList() {
             href: '/service/content-service',
         },
         {
-            title: 'Growth & Management',
+            title: 'Organic Growth Management',
             subtitle:
                 'Tailored strategies designed to elevate your online presence, expand your reach, and cultivate a thriving digital audience.',
             imgUrl: '/images/4.png',

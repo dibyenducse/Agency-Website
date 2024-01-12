@@ -68,7 +68,7 @@ export default function MarketingAgencyHome() {
                 <Div className="container">
                     <VideoModal
                         videoSrc="https://www.youtube.com/"
-                        bgUrl="/images/video_bg_2.jpeg"
+                        bgUrl="/images/video_bg_2.png"
                     />
                 </Div>
             </Div>
@@ -78,7 +78,7 @@ export default function MarketingAgencyHome() {
             <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
-                    title="Our core services"
+                    title="Our Core Services"
                     subtitle="Services"
                     variant="cs-style1 text-center"
                 />
@@ -173,7 +173,7 @@ export default function MarketingAgencyHome() {
                     title="Let’s disscuse,<br />make something <i>cool</i>  together"
                     btnText="Get In Touch"
                     btnLink="/contact"
-                    bgSrc="/images/cta_bg_3.jpeg"
+                    bgSrc="/images/cta_bg_3.png"
                 />
             </Div>
             {/* End CTA Section */}
