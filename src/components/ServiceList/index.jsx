@@ -6,28 +6,29 @@ import './servicelist.scss';
 export default function ServiceList() {
     const serviceData = [
         {
-            title: 'Social Media Video Editing',
-            subtitle:
-                'Transform your content with our Social Media Video Editing services. We craft the visuals, you bask in the engagement.',
-            imgUrl: '/images/5.png',
-            href: '/service/management-service',
-        },
-        {
-            title: 'Social Media Growth',
-            subtitle:
-                'Tailored strategies designed to elevate your online presence, expand your reach, and cultivate a thriving digital audience.',
-            imgUrl: '/images/4.png',
-            href: '/service/growth-service',
-        },
-        {
-            title: 'Social Media Content Creation ',
+            title: 'Creative Content Creation ',
             subtitle:
                 "Craft compelling and captivating content to tell your brand's story across various platforms.",
             imgUrl: '/images/1.png',
             href: '/service/content-service',
         },
         {
-            title: 'Social Ad Campaigns',
+            title: 'Growth & Management',
+            subtitle:
+                'Tailored strategies designed to elevate your online presence, expand your reach, and cultivate a thriving digital audience.',
+            imgUrl: '/images/4.png',
+            href: '/service/growth-service',
+        },
+        {
+            title: 'Creative Video Editing',
+            subtitle:
+                'Transform your content with our Social Media Video Editing services. We craft the visuals, you bask in the engagement.',
+            imgUrl: '/images/5.png',
+            href: '/service/video-editing',
+        },
+
+        {
+            title: 'Paid Ads Campaign',
             subtitle:
                 'Execute strategic and impactful digital campaigns to enhance brand visibility and success.',
             imgUrl: '/images/3.png',

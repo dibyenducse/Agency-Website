@@ -28,6 +28,7 @@ import ContentService from './components/Pages/ContentService';
 import GrowthService from './components/Pages/GrowthService';
 import AdsService from './components/Pages/AdsService';
 import ManagementService from './components/Pages/ManagementService';
+import PortfolioDetailsPageOne from './components/Pages/PortfolioDetailsPageOne';
 
 function App() {
     return (
@@ -73,6 +74,10 @@ function App() {
                     <Route
                         path="portfolio/:portfolioDetailsId"
                         element={<PortfolioDetailsPage />}
+                    />
+                    <Route
+                        path="portfolio/portfolioDetailsPageOne"
+                        element={<PortfolioDetailsPageOne />}
                     />
                     <Route
                         path="portfolio/growth-portfolio"
