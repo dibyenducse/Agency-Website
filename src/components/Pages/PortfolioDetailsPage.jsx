@@ -16,11 +16,11 @@ export default function PortfolioDetailsPage() {
     }, []);
     return (
         <>
-            <PageHeading
+            {/* <PageHeading
                 title="Portfolio Details"
                 bgSrc="/images/service_hero_bg.jpeg"
                 pageLinkText={params.portfolioDetailsId}
-            />
+            /> */}
             <Spacing lg="150" md="80" />
             <Div className="container">
                 <img
