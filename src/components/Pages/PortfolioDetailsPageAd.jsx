@@ -31,10 +31,7 @@ export default function PortfolioDetailsPage() {
                 <Spacing lg="90" md="40" />
                 <Div className="row">
                     <Div className="col-lg-6">
-                        <SectionHeading
-                            title="Graffiti wall artwork"
-                            subtitle="Creative"
-                        >
+                        <SectionHeading title="Matt Murrey" subtitle="Creative">
                             <Spacing lg="40" md="20" />
                             <p>
                                 Sed ut perspiciatis unde omnis iste natus error
