@@ -10,7 +10,7 @@ export default function PortfolioSlider2() {
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
-            href: '/portfolio/PortfolioDetailsPageOne',
+            href: '/portfolio/PortfolioDetailsPage',
             src: '/images/portfolio_32.jpeg',
         },
         {
