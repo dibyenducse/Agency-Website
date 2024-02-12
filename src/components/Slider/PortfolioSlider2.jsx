@@ -8,52 +8,52 @@ import VideoModal from '../VideoModal';
 export default function PortfolioSlider2() {
     const portfolioData = [
         {
-            title: 'Colorful Art Work',
+            title: 'Boston Realtor, Michelle Souza',
             subtitle: 'See Details',
             href: '/portfolio/PortfolioDetailsPage',
-            src: '/images/portfolio_32.jpeg',
+            src: '/images/portfolio_31.png',
         },
         {
             title: 'e',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_32.jpeg',
+            src: '/images/portfolio_32.png',
         },
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_33.jpeg',
+            src: '/images/portfolio_33.png',
         },
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_34.jpeg',
+            src: '/images/portfolio_34.png',
         },
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_31.jpeg',
+            src: '/images/portfolio_35.png',
         },
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_32.jpeg',
+            src: '/images/portfolio_36.png',
         },
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_33.jpeg',
+            src: '/images/portfolio_37.png',
         },
         {
             title: 'Colorful Art Work',
             subtitle: 'See Details',
             href: '/portfolio/portfolio-details',
-            src: '/images/portfolio_34.jpeg',
+            src: '/images/portfolio_38.png',
         },
     ];
 
