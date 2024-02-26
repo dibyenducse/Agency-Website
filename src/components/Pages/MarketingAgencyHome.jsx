@@ -39,7 +39,7 @@ export default function MarketingAgencyHome() {
         },
         {
             title: 'Global happy clients',
-            factNumber: '200',
+            factNumber: '262',
         },
         {
             title: ' Content Created',
