@@ -31,6 +31,10 @@ export default function MarketingAgencyHome() {
             name: 'Instagram',
             links: 'https://www.instagram.com/bloombrainmedia/',
         },
+        {
+            name: 'Youtube',
+            links: 'https://www.youtube.com/@bloombrainmedia/',
+        },
     ];
     const funfaceData = [
         {
